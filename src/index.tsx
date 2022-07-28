@@ -1,10 +1,10 @@
 import React from 'react';
-import { View } from 'react-native';
+import OnBoarding from './pages/OnBoarding';
 
 // import { Container } from './styles';
 
 const App: React.FC = () => {
-  return <View />;
+  return <OnBoarding />;
 }
 
 export default App;
