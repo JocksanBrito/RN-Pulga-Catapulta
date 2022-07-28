@@ -1,10 +1,15 @@
 import React from 'react';
-import OnBoarding from './pages/OnBoarding';
+import { NavigationContainer } from "@react-navigation/native";
+import Navigation from "./navigation";
 
 // import { Container } from './styles';
 
 const App: React.FC = () => {
-  return <OnBoarding />;
+  return (
+    <NavigationContainer>
+      <Navigation />
+    </NavigationContainer>
+  );
 }
 
 export default App;
